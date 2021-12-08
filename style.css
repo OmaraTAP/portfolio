@@ -1,0 +1,154 @@
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+
+  .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #271627;
+    position: sticky;
+    top: 0;
+  }
+
+  .navbar ul{
+    display:flex;
+    list-style: none;
+    margin: 26px 0px;
+  }
+
+  .navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+    .navbar ul li a{
+      text-decoration: none;
+      color: #FFFFFF;
+      padding: 8px 25px;
+      transition: all .5s ease;
+    }
+
+    .navbar ul li a:hover{
+      background-color: #FFFFFF;
+      color:black;
+      box-shadow: 0 0 10px white;
+    }
+
+    /*Home*/
+
+    #home{
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 840px;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    #home:before{
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      background:url("images/me.jpg") no-repeat center center/cover;
+      height: 900px;
+      width: 45%;
+      z-index: -1;
+      opacity: .8;
+    }
+
+    .main{
+      display:flex;
+      flex-direction: column;
+      border: 3px dashed white;
+      padding: 3em;
+      align-items: flex-start;
+      position: absolute;
+      top: 30%;
+      left: 10%;
+    }
+
+    .headings{
+      font-family: century;
+      font-size: 3rem;
+      text-align: center;
+      margin: 40px 0px;
+    }
+
+    #about{
+      text-align: center;
+      font-size: 10px;
+    }
+
+    .heading{
+      font-family: century;
+      font-size: 3rem;
+      text-align: center;
+      margin-top: 1em;
+    }
+
+    .responsive{
+      display: block;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+      margin-top: 2em;
+      margin-bottom: 2em;
+    }
+
+    .intro{
+      font-family: century;
+      font-size: 1.7em;
+      text-align: center;
+    }
+
+  #portfolio{
+      display:flex;
+      flex-direction: column;
+      background-color: rgba(0, 0, 0, 0.9);
+      color: white;
+      align-items: center;
+      padding: 20px;
+    }
+
+  .gallery{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      box-sizing: border-box;
+      flex: 1 0 auto;
+      width:250px;
+      margin: 0 1em;
+    }
+
+    .gallery img{
+      width: 360px;
+      height: 240px;
+      margin: 10px;
+    }
+
+    .gallery a:hover{
+      background-color: #FFFFFF;
+      color:black;
+      box-shadow: 0 0 10px white;
+    }
+
+
+
+
+
+
+    .ice{
+      text-align: center;
+      font-size: 1.7rem;
+      font-family: century;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
